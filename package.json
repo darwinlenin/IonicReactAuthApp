@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "main": "src/index.js",
-  "homepage":"/",
+  "homepage": "/",
   "dependencies": {
     "@ionic/react": "^5.6.10",
     "@testing-library/jest-dom": "^5.11.4",
