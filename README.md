@@ -15,41 +15,41 @@ npx cap open ios
 
 You can run de app how a SPA also:
 
-![Screenshots](https://ionic-react-auth-app.herokuapp.com/prints/WebSPA.png)
+![Screenshots](https://ionic-react-auth-app.netlify.app/prints/WebSPA.png)
 
 Configure the Twitch access app:
 
-![Screenshots](https://ionic-react-auth-app.herokuapp.com/prints/TwitchDevConsole.png)
+![Screenshots](https://ionic-react-auth-app.netlify.app/prints/TwitchDevConsole.png)
 
 Configure the Auth0 access app:
 
-![Screenshots](https://ionic-react-auth-app.herokuapp.com/prints/Auth0Configuration.png)
+![Screenshots](https://ionic-react-auth-app.netlify.app/prints/Auth0Configuration.png)
 
 User profile with data of Twitch authentication service with Auth0:
 
-![Screenshots](https://ionic-react-auth-app.herokuapp.com/prints/ProfileTab.png)
+![Screenshots](https://ionic-react-auth-app.netlify.app/prints/ProfileTab.png)
 
 Main page user logged:
 
-![Screenshots](https://ionic-react-auth-app.herokuapp.com/prints/LoggedMainPage.png)
+![Screenshots](https://ionic-react-auth-app.netlify.app/prints/LoggedMainPage.png)
 
 Allow Authentication permission for the application:
 
-![Screenshots](https://ionic-react-auth-app.herokuapp.com/prints/AuthorizationWindow.png)
+![Screenshots](https://ionic-react-auth-app.netlify.app/prints/AuthorizationWindow.png)
 
 User authenticated:
 
-![Screenshots](https://ionic-react-auth-app.herokuapp.com/prints/AuthScreen.png)
+![Screenshots](https://ionic-react-auth-app.netlify.app/prints/AuthScreen.png)
 
 
 In the project directory, you can run de .apk for android devices, and you can see the following application:
 
-![Screenshots](https://ionic-react-auth-app.herokuapp.com/prints/AndroidApp.png)
+![Screenshots](https://ionic-react-auth-app.netlify.app/prints/AndroidApp.png)
 
 In the project directory, you can run de .ipa for android devices, and you can see the following application:
 
-![Screenshots](https://ionic-react-auth-app.herokuapp.com/prints/iOSApp.png?)
+![Screenshots](https://ionic-react-auth-app.netlify.app/prints/iOSApp.png?)
 
 User registed in the Auth0 database app:
 
-![Screenshots](https://ionic-react-auth-app.herokuapp.com/prints/Auth0Console.png)
+![Screenshots](https://ionic-react-auth-app.netlify.app/prints/Auth0Console.png)
