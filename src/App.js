@@ -12,7 +12,7 @@ import { Route } from 'react-router-dom';
 
 class App extends Component {
   render() {
-
+    console.log(this.props.location);
     let mainComponent =""
     switch(this.props.location){
       case "":
