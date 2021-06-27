@@ -15,29 +15,29 @@ npx cap open ios
 
 You can run de app how a SPA also:
 
-![alt text](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/WebSPA.png)
+![alt text](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/WebSPA.png?raw=true)
 
 User profile with data of Twitch authentication service with Auth0:
 
-![alt text](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/ProfileTab.png)
+![alt text](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/ProfileTab.png?raw=true)
 
 Main page user logged:
 
-![alt text](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/LoggedMainPage.png)
+![alt text](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/LoggedMainPage.png?raw=true)
 
 Allow Authentication permission for the application:
 
-![alt text](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/AuthorizationWindow.png)
+![alt text](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/AuthorizationWindow.png?raw=true)
 
 User authenticated:
 
-![alt text](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/AuthScreen.png)
+![alt text](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/AuthScreen.png?raw=true)
 
 
 In the project directory, you can run de .apk for android devices, and you can see the following application:
 
-![alt text](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/AndroidApp.png)
+![alt text](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/AndroidApp.png?raw=true)
 
 In the project directory, you can run de .ipa for android devices, and you can see the following application:
 
-![alt text](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/iOSApp.png)
+![alt text](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/iOSApp.png?raw=true)
