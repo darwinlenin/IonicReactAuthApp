@@ -32,9 +32,9 @@ class App extends Component {
             <IonToolbar>
               <IonTitle>Ionic React Auth App</IonTitle>
             </IonToolbar>
-            {this.props.pictureprofile!="" ?<IonGrid><IonImg src={this.props.pictureprofile} className="App-picture-profile" alt="logo" /></IonGrid>:<IonGrid><IonImg src={logoreact} className="App-logo" alt="logo" /><IonImg src={logoionic} className="App-logo" alt="logo" /></IonGrid>} 
-            {this.props.nickname!="" ?<IonGrid>Nickname: {this.props.nickname}</IonGrid>:<IonGrid></IonGrid>}
-            {this.props.name!="" ?<IonGrid>Name: {this.props.name}</IonGrid>:<IonGrid></IonGrid>}
+            {this.props.pictureprofile!=="" ?<IonGrid><IonImg src={this.props.pictureprofile} className="App-picture-profile" alt="logo" /></IonGrid>:<IonGrid><IonImg src={logoreact} className="App-logo" alt="logo" /><IonImg src={logoionic} className="App-logo" alt="logo" /></IonGrid>} 
+            {this.props.nickname!=="" ?<IonGrid>Nickname: {this.props.nickname}</IonGrid>:<IonGrid></IonGrid>}
+            {this.props.name!=="" ?<IonGrid>Name: {this.props.name}</IonGrid>:<IonGrid></IonGrid>}
         </IonHeader>
         <IonContent><IonItemGroup>{mainComponent}</IonItemGroup></IonContent>
         <IonFooter>
