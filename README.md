@@ -15,29 +15,29 @@ npx cap open ios
 
 You can run de app how a SPA also:
 
-![Screenshots](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/WebSPA.png)
+![Screenshots](https://ionic-react-auth-app.herokuapp.com/prints/WebSPA.png)
 
 User profile with data of Twitch authentication service with Auth0:
 
-![Screenshots](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/ProfileTab.png)
+![Screenshots](https://ionic-react-auth-app.herokuapp.com/prints/ProfileTab.png)
 
 Main page user logged:
 
-![Screenshots](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/LoggedMainPage.png)
+![Screenshots](https://ionic-react-auth-app.herokuapp.com/prints/LoggedMainPage.png)
 
 Allow Authentication permission for the application:
 
-![Screenshots](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/AuthorizationWindow.png)
+![Screenshots](https://ionic-react-auth-app.herokuapp.com/prints/AuthorizationWindow.png)
 
 User authenticated:
 
-![Screenshots](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/AuthScreen.png)
+![Screenshots](https://ionic-react-auth-app.herokuapp.com/prints/AuthScreen.png)
 
 
 In the project directory, you can run de .apk for android devices, and you can see the following application:
 
-![Screenshots](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/AndroidApp.png)
+![Screenshots](https://ionic-react-auth-app.herokuapp.com/prints/AndroidApp.png)
 
 In the project directory, you can run de .ipa for android devices, and you can see the following application:
 
-![Screenshots](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/iOSApp.png?)
+![Screenshots](https://ionic-react-auth-app.herokuapp.com/prints/iOSApp.png?)
