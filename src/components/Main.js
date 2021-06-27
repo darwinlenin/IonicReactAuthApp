@@ -3,7 +3,8 @@ import {play as playIcon, accessibility as accessibilityIcon} from "ionicons/ico
 import React, {Component} from "react";
 
 
-const SECRET_PAGE = "/secret";
+const SECRET_PAGE = "/secret"
+const NOT_FOUND_PAGE = "/notfound";
 
 export default class Main extends Component{
     render(){
@@ -16,14 +17,22 @@ export default class Main extends Component{
                     <IonGrid>
                         Do you want to access to your profile?
                     </IonGrid>
-                    <IonGrid>
-                        <IonButton href={SECRET_PAGE}><IonIcon slot="end" icon={accessibilityIcon} />Click here</IonButton>
-                    </IonGrid>
+                    
                     {!this.props.auth.isAuthenticated() && 
                     <IonContent>
+                        <IonGrid>
+                            <IonButton href={NOT_FOUND_PAGE}><IonIcon slot="end" icon={accessibilityIcon} />Click here</IonButton>
+                        </IonGrid>
                         <IonGrid>Please login first</IonGrid>
                         <IonGrid>
                             <IonButton color="success" onClick={this.props.auth.login}><IonIcon icon={playIcon} slot="end"/>Login</IonButton>
+                        </IonGrid>
+                    </IonContent>
+                    }
+                    {this.props.auth.isAuthenticated() && 
+                    <IonContent>
+                        <IonGrid>
+                            <IonButton href={SECRET_PAGE}><IonIcon slot="end" icon={accessibilityIcon} />Click here</IonButton>
                         </IonGrid>
                     </IonContent>
                     }
