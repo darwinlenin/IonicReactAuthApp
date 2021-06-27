@@ -5,8 +5,14 @@
   "main": "src/index.js",
   "homepage": "/",
   "dependencies": {
+    "@auth0/cordova": "^0.4.3",
+    "@capacitor/android": "2.4.7",
+    "@capacitor/core": "2.4.7",
+    "@capacitor/ios": "^2.4.7",
+    "@ionic-native/safari-view-controller": "^5.33.1",
     "@ionic/react": "^5.6.10",
     "@ionic/react-router": "^5.6.10",
+    "@ionic/storage": "^3.0.4",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
@@ -44,5 +50,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@capacitor/cli": "2.4.7"
   }
 }

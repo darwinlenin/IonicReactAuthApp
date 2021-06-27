@@ -12,7 +12,8 @@ export default class Auth{
         redirectUri:window.location.origin+"/callback",
         audience:"https://darwin-palma.us.auth0.com/userinfo",
         responseType:"token id_token",
-        scope:"openid profile"
+        packageIdentifier: 'org.darwinpalma.ionicreactauthapp',
+        scope:"openid profile offline_access"
     });
 
     constructor(){

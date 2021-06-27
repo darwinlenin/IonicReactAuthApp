@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Getting Started with Ionic-React Authorization App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is hosted in the Heroku cloud https://ionic-react-auth-app.herokuapp.com/.
 
-## Available Scripts
+## Demo prints and documentation
 
-In the project directory, you can run:
+The app was builded with Capacitor Ionic and React integrated with Auth0 platform and hosted in Heroku cloud how SPA.
+The binaries can be generated with capacitor with the following command to run in emulators on in real devices:
 
-### `yarn start`
+npx cap init --web-dir build --npm-client npm IonicReactAuthenticator org.darwinpalma.ionicreactauthapp
+npx cap add android 
+npx cap add ios
+npx cap open android 
+npx cap open ios  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+You can run de app how a SPA also:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![Settings Window](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/WebSPA.png)
 
-### `yarn test`
+User profile with data of Twitch authentication service with Auth0:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Settings Window](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/ProfileTab.png)
 
-### `yarn build`
+Main page user logged:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![Settings Window](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/LoggedMainPage.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Allow Authentication permission for the application:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Settings Window](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/AuthorizationWindow.png)
 
-### `yarn eject`
+User authenticated:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Settings Window](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/AuthScreen.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+In the project directory, you can run de .apk for android devices, and you can see the following application:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+![Settings Window](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/AndroidApp.png)
 
-## Learn More
+In the project directory, you can run de .ipa for android devices, and you can see the following application:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Settings Window](https://github.com/darwinlenin/IonicReactAuthApp/tree/main/public/prints/iOSApp.png)
