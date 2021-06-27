@@ -16,7 +16,7 @@ export default class NotFound extends Component {
                     You can access to this section via login authentication.
                 </IonGrid>
                 <IonGrid>
-                    <IonButton routerLink={MAIN_PAGE}><IonIcon slot="end" icon={homeIcon} />Back to homepage</IonButton>
+                    <IonButton href={MAIN_PAGE}><IonIcon slot="end" icon={homeIcon} />Back to homepage</IonButton>
                 </IonGrid>
                 </IonContent>
             </IonApp>

@@ -8,24 +8,15 @@ import NotFound from "./components/NotFound";
 import Callback from './components/Callback';
 import {IonHeader,IonRouterOutlet,IonApp,IonImg,IonItemGroup,IonContent,IonToolbar,IonTitle,IonGrid,IonFooter} from "@ionic/react";
 import { IonReactRouter } from '@ionic/react-router';
-import { Route,Switch } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 
 class App extends Component {
   render() {
-    console.log(this.props.location);
+
     let mainComponent =""
     switch(this.props.location){
       case "":
-        mainComponent = <IonReactRouter>
-        <IonRouterOutlet>
-          <Switch>
-            <Route path="/"><Main {...this.props}/></Route>
-            <Route path="/callback" component={Callback} />
-            <Route path="/secret"><Secret {...this.props} /></Route>
-            <Route path="/notfound" component={NotFound} />
-          </Switch>
-        </IonRouterOutlet>
-      </IonReactRouter>;
+        mainComponent = <Main {...this.props}/>;
         break;
       case "callback":
         mainComponent = <IonReactRouter>
@@ -35,18 +26,18 @@ class App extends Component {
       </IonReactRouter>;
         break;
       case "secret":
-        mainComponent = (this.props.auth.isAuthenticated())? 
-          (<IonReactRouter>
+        mainComponent = this.props.auth.isAuthenticated()? 
+          <IonReactRouter>
             <IonRouterOutlet>
-              <Route path="/secret"><Secret {...this.props} /></Route>
+              <Route path="/secret"><Secret {...this.props} /></Route> 
             </IonRouterOutlet>
-          </IonReactRouter>)
+          </IonReactRouter>
       : 
-        (<IonReactRouter>
+        <IonReactRouter>
           <IonRouterOutlet>
             <Route path="/notfound" component={NotFound} />
           </IonRouterOutlet>
-        </IonReactRouter>);
+        </IonReactRouter>;
         break;
       default:
         mainComponent = <IonReactRouter>

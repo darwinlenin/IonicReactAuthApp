@@ -12,7 +12,7 @@ export default class Secret extends Component {
                     <IonGrid>Login Success!</IonGrid>
                     <IonGrid>Private area.</IonGrid>
                     <IonGrid>
-                        <IonButton routerLink={MAIN_PAGE}><IonIcon slot="end" icon={homeIcon} />Back to homepage</IonButton>
+                        <IonButton href={MAIN_PAGE}><IonIcon slot="end" icon={homeIcon} />Back to homepage</IonButton>
                     </IonGrid>
                     <IonGrid>
                         <IonButton color="danger" onClick={this.props.auth.logout}>Logout</IonButton>
