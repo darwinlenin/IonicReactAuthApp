@@ -17,6 +17,14 @@ You can run de app how a SPA also:
 
 ![Screenshots](https://ionic-react-auth-app.herokuapp.com/prints/WebSPA.png)
 
+Configure the Twitch access app:
+
+![Screenshots](https://ionic-react-auth-app.herokuapp.com/prints/TwitchDevConsole.png)
+
+Configure the Auth0 access app:
+
+![Screenshots](https://ionic-react-auth-app.herokuapp.com/prints/Auth0Configuration.png)
+
 User profile with data of Twitch authentication service with Auth0:
 
 ![Screenshots](https://ionic-react-auth-app.herokuapp.com/prints/ProfileTab.png)
@@ -41,3 +49,7 @@ In the project directory, you can run de .apk for android devices, and you can s
 In the project directory, you can run de .ipa for android devices, and you can see the following application:
 
 ![Screenshots](https://ionic-react-auth-app.herokuapp.com/prints/iOSApp.png?)
+
+User registed in the Auth0 database app:
+
+![Screenshots](https://ionic-react-auth-app.herokuapp.com/prints/Auth0Console.png)
