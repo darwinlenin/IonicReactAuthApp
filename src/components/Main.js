@@ -21,7 +21,7 @@ export default class Main extends Component{
                     {!this.props.auth.isAuthenticated() && 
                     <IonContent>
                         <IonGrid>
-                            <IonButton href={NOT_FOUND_PAGE}><IonIcon slot="end" icon={accessibilityIcon} />Click here</IonButton>
+                            <IonButton routerLink={NOT_FOUND_PAGE}><IonIcon slot="end" icon={accessibilityIcon} />Click here</IonButton>
                         </IonGrid>
                         <IonGrid>Please login first</IonGrid>
                         <IonGrid>
@@ -32,7 +32,7 @@ export default class Main extends Component{
                     {this.props.auth.isAuthenticated() && 
                     <IonContent>
                         <IonGrid>
-                            <IonButton href={SECRET_PAGE}><IonIcon slot="end" icon={accessibilityIcon} />Click here</IonButton>
+                            <IonButton routerLink={SECRET_PAGE}><IonIcon slot="end" icon={accessibilityIcon} />Click here</IonButton>
                         </IonGrid>
                     </IonContent>
                     }

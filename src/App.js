@@ -8,7 +8,7 @@ import NotFound from "./components/NotFound";
 import Callback from './components/Callback';
 import {IonHeader,IonRouterOutlet,IonApp,IonImg,IonItemGroup,IonContent,IonToolbar,IonTitle,IonGrid,IonFooter} from "@ionic/react";
 import { IonReactRouter } from '@ionic/react-router';
-import { Route } from 'react-router-dom';
+import { Route,Switch } from 'react-router-dom';
 
 class App extends Component {
   render() {
@@ -16,7 +16,16 @@ class App extends Component {
     let mainComponent =""
     switch(this.props.location){
       case "":
-        mainComponent = <Main {...this.props}/>;
+        mainComponent = <IonReactRouter>
+        <IonRouterOutlet>
+          <Switch>
+            <Route path="/"><Main {...this.props}/></Route>
+            <Route path="/callback" component={Callback} />
+            <Route path="/secret"><Secret {...this.props} /></Route>
+            <Route path="/notfound" component={NotFound} />
+          </Switch>
+        </IonRouterOutlet>
+      </IonReactRouter>;
         break;
       case "callback":
         mainComponent = <IonReactRouter>
